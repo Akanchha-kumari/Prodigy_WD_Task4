@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+     background-color: black;
+     color: white;
+     font-family:'Times New Roman', Times, serif ;
+     scroll-behavior: smooth;
+     
+ }
+
+ nav{
+  background-color: rgb(27, 13, 56);
+  height: 70px;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+
+
+
+}
+ nav  ul{
+     display: flex;
+     justify-content: center;
+ }
+ nav ul li{
+     list-style: none;
+     margin: 0 23px;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ nav ul li a:hover{
+   
+    color: rgb(107, 107, 163);
+    font-size: 1.01rem;
+ }
+ main hr{
+     border:0;
+     background-color: rgb(107, 107, 163);
+     height:1.2px;
+     margin:140px 84px;
+ }
+ .left{
+     font-size: 1.5rem;
+ }
+ .firstSection{
+     display: flex;
+     justify-content: space-around;
+     margin: 80px 0;
+     align-items: center;
+ }
+
+ .firstSection > div{
+  width: 30%;
+
+ }
+ .leftSection{
+     margin: 70px 0;
+     font-size: 3rem;
+ }
+ .rightSection{
+     width: 80%;
+
+ }
+ .purple{
+     color: blueviolet;
+ }
+ .secondSection{
+     max-width: 80vw;
+     margin: auto;
+     height:80vh;
+ }
+ .text-gray{
+    color:gray;   
+ }
+ .secondSection .box{
+     background: white;
+     width: 80vw;
+     height:2px;
+     margin: 26px 0;
+   
+ }
+ .secondSection .vertical{
+     height:93px;
+     width: 1px;
+     background: white;
+     
+ }
+
+ .thirdSection{
+     max-width: 80vw;
+     margin: auto;
+     height:80vh;
+   
+ }
+
+ .thirdSection .box{
+     background: white;
+     width: 80vw;
+     height:2px;
+     margin: 26px 0;
+   
+ }
+ .thirdSection .vertical{
+     height:93px;
+     width: 1px;
+     background: white;
+     
+ }
+ .fourthSection{
+     max-width: 80vw;
+     margin: auto;
+     height:80vh;
+ }
+
+ .fourthSection .box{
+     background: white;
+     width: 80vw;
+     height:2px;
+     margin: 26px 0;
+   
+ }
+ .fourthSection .vertical{
+     height:93px;
+     width: 1px;
+     background: white;
+     
+ }
+ .aboutSection{
+     max-width: 80vw;
+     margin: auto;
+     height:80vh;
+ }
+
+ .aboutSection .box{
+     background: white;
+     width: 80vw;
+     height:2px;
+     margin: 26px 0;
+   
+ }
+ .aboutSection .vertical{
+     height:93px;
+     width: 1px;
+     background: white;
+     
+ }
+p{
+    font-size: large;
+    margin-left: 10px;
+}
+h3{
+    font-size: large;
+    margin-left: 10px;
+}
+a{
+    font-size: large;
+    margin-left: 10px;
+    color: rgb(66, 151, 225);
+}
+li{
+   
+    margin-left: 50px;
+}
+h7{
+    font-size: large;
+    margin-left: 8px;
+}
